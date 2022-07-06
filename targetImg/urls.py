@@ -3,7 +3,7 @@ from rest_framework.urlpatterns import format_suffix_patterns
 from .views import TargetImgListAPI
 
 urlpatterns = [
-    path('targetImgs/', TargetImgListAPI.as_view()),
+    path('api/targetImgs/', TargetImgListAPI.as_view()),
 ]
 
 urlpatterns = format_suffix_patterns(urlpatterns)
